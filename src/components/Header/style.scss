@@ -1,0 +1,28 @@
+$header: "header";
+.#{$header} {
+    $h: 44px;
+    height: $h;
+    &-contain {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: #f00;
+        z-index: 999999;
+        height: $h;
+    }
+    &-box {
+        height: 100%;
+        .aa {
+            color: blue;
+        }
+    }
+    &-title {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 14px;
+    }
+}
