@@ -1,4 +1,8 @@
 $header: "header";
+
+.header-contain{
+background-color: black !important;
+}
 .#{$header} {
     $h: 44px;
     height: $h;
@@ -25,4 +29,8 @@ $header: "header";
         color: #fff;
         font-size: 14px;
     }
+}
+/*定义多个全局样式*/
+:global {
+
 }

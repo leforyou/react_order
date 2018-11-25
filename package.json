@@ -23,7 +23,14 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "autoprefixer": "^9.3.1",
+    "css-loader": "^1.0.1",
+    "cssnano": "^4.1.7",
     "node-sass": "^4.10.0",
-    "sass-loader": "^7.1.0"
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1"
   }
 }
