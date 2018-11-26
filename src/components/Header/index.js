@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./style.scss";
-
+import styles  from "./style.scss";
+console.log(styles)
 class index extends Component {
   render() {
     return (
