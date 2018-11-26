@@ -6,6 +6,11 @@ import Header from "./../Header"; //  import Header from "../Header"    <Header 
 import OrderList from "../OrderList";
 
 class App extends Component {
+  /**注释：可多行
+   * 
+   * 
+   */
+
   render() {
     return (
       <div className="App">
@@ -14,7 +19,7 @@ class App extends Component {
 
 
 
-        {/*  一般注释, 用 {} 包围
+        {/*标签注释, 用 {} 包围
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
