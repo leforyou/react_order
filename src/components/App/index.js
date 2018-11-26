@@ -3,12 +3,18 @@ import logo from "./../../logo.svg";
 import "./style.scss";
 
 import Header from "./../Header"; //  import Header from "../Header"    <Header />
+import OrderList from "../OrderList";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <Header />
+        <OrderList/>
+
+
+
+        {/*  一般注释, 用 {} 包围
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
@@ -23,6 +29,9 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        */}
+
+
       </div>
     );
   }

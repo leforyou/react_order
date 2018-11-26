@@ -1,8 +1,4 @@
 $header: "header";
-
-.header-contain{
-background-color: blue !important;
-}
 .#{$header} {
     $h: 44px;
     height: $h;
@@ -17,9 +13,6 @@ background-color: blue !important;
     }
     &-box {
         height: 100%;
-        .aa {
-            color: blue;
-        }
     }
     &-title {
         height: 100%;
@@ -29,8 +22,4 @@ background-color: blue !important;
         color: #fff;
         font-size: 14px;
     }
-}
-/*定义多个全局样式*/
-:global {
-
 }
