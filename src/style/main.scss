@@ -1,0 +1,34 @@
+button{
+    cursor: pointer;
+    outline: none;
+}
+
+
+.ellipsis1{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+@for $i from 2 through 10 {
+    .ellipsis#{$i}{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: $i;
+        -webkit-box-orient: vertical;
+    }
+}
+
+
+
+
+
+
+
+/**10像素到200像素的字体,用法:fz20 **/
+@for $i from 10 through 200 {
+    .fz#{$i} { font-size: $i+px; }
+}
+
+
+

@@ -1,0 +1,94 @@
+body{
+    background-color: #f4f4f4;
+}
+.OrderItem{
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    .box{
+        display: flex;
+        .img-box{
+            width: 110px;
+            min-width: 110px;
+            p{
+                padding-top: 100%;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        .info{
+            width: calc(100% - 110px);
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .head{
+                .product{
+                    font-weight: bold;
+                }
+                .business{
+                    color: #999;
+                }
+            }
+            .foot{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .price{
+                    color: #999;
+                }
+                .btn{
+                    button{
+                        &.red{
+                            background-color: #e23a3a;
+                        }
+                        &.grey{
+                            background-color: #aaa;
+                        }
+                        color: #fff;
+                        display: block;
+                        width: 75px;
+                        line-height: 30px;
+                        text-align: center;
+                        background-color: #e23a3a;
+                    }
+                }
+            }
+        }
+    }
+    .evaluate{
+        margin-top: 10px;
+        textarea{
+            padding:5px 10px;
+            line-height: 1.6;
+            display: block;
+            width: 100%;
+            max-width: 100%;
+            min-width: 100%;
+            min-height: 90px;
+            border: 1px solid #ccc;
+        }
+        .group-stars{
+            display: flex;
+        }
+        .group-button{
+            display: flex;
+            .sure{
+                background-color: #e23a3a;
+            }
+            .cancel{
+                background-color: #aaa;
+            }
+            button{
+                color: #fff;
+                display: block;
+                width: 60px;
+                line-height: 20px;
+                text-align: center;
+            }
+        }
+    }
+}

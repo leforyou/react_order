@@ -1,13 +1,13 @@
 import React, { Component } from "react";
-import styles  from "./style.scss";
-console.log(styles)
+import "./style.scss";
+
 class index extends Component {
   render() {
     return (
       <div className="header">
         <div className="header-contain">
           <div className="header-box">
-            <p className="header-title">评价列表</p>
+            <p className="header-title">我的订单</p>
           </div>
         </div>
       </div>
