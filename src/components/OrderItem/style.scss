@@ -62,6 +62,9 @@ body{
     .evaluate{
         margin-top: 10px;
         textarea{
+            &:focus{
+                border: 1px solid #409EFF;
+            }
             padding:5px 10px;
             line-height: 1.6;
             display: block;
@@ -73,6 +76,18 @@ body{
         }
         .group-stars{
             display: flex;
+            margin: 0px -2px;
+            span{
+                &.grey{
+                    color: #aaa;
+                }
+                &.active{
+                    color: #e23a3a;
+                }
+                cursor: pointer;
+                line-height: 2.2;
+                padding: 0px 2px;
+            }
         }
         .group-button{
             display: flex;

@@ -75,11 +75,23 @@ class OrderList extends Component {
       <div className="OrderList">
         {
           this.state.data.map(item=>{
-            return <OrderItem key={item.id} data={item}/>
+            return <OrderItem key={item.id} data={item} onSubmit={this.handleSubmit}/>
           })
         }
       </div>
     );
+  }
+
+  handleSubmit = (id , comment , stars) => {
+    //提交数据
+    const newData = this.state.data.map( item => {
+      return item.id === id ? {
+        ...item , comment , stars , ifCommented : true
+      } : item;
+    });
+    this.setState({
+      data:newData
+    });
   }
 }
 
