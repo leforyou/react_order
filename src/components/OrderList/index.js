@@ -65,7 +65,7 @@ class OrderList extends Component {
           });
           this.setState({
             data
-          })
+          });
         });
       }
     })
