@@ -5,7 +5,8 @@
         "picture": "",
         "product": "百香果（冷饮）1扎",
         "price": "19.9",
-        "ifCommented": true
+        "ifCommented": false,
+        "comment":"很好吃！"
     },
     {
         "id": 2,
