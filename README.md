@@ -6,3 +6,9 @@
 没有状态管理，路由，没ajax。
 
 配置sass
+
+
+效果图：
+
+![imgage text](https://raw.githubusercontent.com/leforyou/react_order/master/public/%E6%95%88%E6%9E%9C%E5%9B%BE.jpg)
+
